@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.StreamiX.DarkTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/myblue</item>
+        <item name="colorPrimaryVariant">@color/black</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/myblue</item>
+        <item name="colorSecondaryVariant">@color/myblue</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+
+        <!-- My custom colors for the theme -->
+        <item name="CardThumbnailBackgroundTint">@color/thumbnailLightMode</item>
+        <item name="VideoQualityBtnBackgroundTint">@color/videoQualityBtnLight</item>
+        <item name="cardBackgroundColor">@color/white</item>
+        <item name="fabVideoBtn">@color/myblue</item>
+        <item name="buttondefault">#E2E2E2</item>
+    </style>
+
+</resources>
